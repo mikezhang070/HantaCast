@@ -1,0 +1,49 @@
+2026-05-16 16:37:41,939 [INFO] ============================================================
+2026-05-16 16:37:41,939 [INFO] HantaCast — Train + Evaluate
+2026-05-16 16:37:41,940 [INFO] Config: C:\Users\30382\OneDrive\桌面\HantaCast_train_minimal\configs\default.yaml
+2026-05-16 16:37:41,940 [INFO] Smoke test: False
+2026-05-16 16:37:41,940 [INFO] Seed: 42
+2026-05-16 16:37:41,940 [INFO] ============================================================
+2026-05-16 16:37:41,940 [INFO] Loading data from: data/processed/case_timeseries_standardized.csv
+2026-05-16 16:37:41,945 [INFO] Data loaded: 10 observations, 17 columns
+2026-05-16 16:37:41,997 [INFO] HantaCast: fitting MixLinear temporal signal learner ...
+2026-05-16 16:37:44,246 [INFO]   Epoch   1/80 | train_loss=0.7626 | val_loss=0.4200
+2026-05-16 16:37:44,253 [INFO]   Epoch   2/80 | train_loss=0.6841 | val_loss=0.4498
+2026-05-16 16:37:44,259 [INFO]   Epoch   3/80 | train_loss=0.6373 | val_loss=0.4837
+2026-05-16 16:37:44,265 [INFO]   Epoch   4/80 | train_loss=0.5778 | val_loss=0.5253
+2026-05-16 16:37:44,273 [INFO]   Epoch   5/80 | train_loss=0.5169 | val_loss=0.5733
+2026-05-16 16:37:44,279 [INFO]   Epoch   6/80 | train_loss=0.4384 | val_loss=0.6317
+2026-05-16 16:37:44,285 [INFO]   Epoch   7/80 | train_loss=0.3859 | val_loss=0.6981
+2026-05-16 16:37:44,291 [INFO]   Epoch   8/80 | train_loss=0.2765 | val_loss=0.7794
+2026-05-16 16:37:44,297 [INFO]   Epoch   9/80 | train_loss=0.1411 | val_loss=0.8651
+2026-05-16 16:37:44,303 [INFO]   Epoch  10/80 | train_loss=0.0876 | val_loss=0.9637
+2026-05-16 16:37:44,308 [INFO]   Epoch  11/80 | train_loss=0.1052 | val_loss=1.0216
+2026-05-16 16:37:44,308 [INFO]   Early stopping at epoch 11
+2026-05-16 16:37:44,309 [INFO] HantaCast: computing MixLinear temporal signal ...
+2026-05-16 16:37:44,319 [INFO] HantaCast: fitting SEIRD dynamics with MixLinear signal ...
+2026-05-16 16:37:44,825 [INFO] HantaCast: training complete.
+2026-05-16 16:37:44,829 [INFO] HantaCast checkpoint saved to outputs\checkpoints\hantacast_best.pt
+2026-05-16 16:37:44,831 [INFO] Training metrics saved to outputs\metrics\metrics.json
+2026-05-16 16:37:44,837 [INFO] HantaCast checkpoint loaded from outputs\checkpoints\hantacast_best.pt
+2026-05-16 16:37:44,842 [INFO] HantaCast: pre-training MixLinear on full dataset ...
+2026-05-16 16:37:44,858 [INFO]   Epoch   1/80 | train_loss=0.7626 | val_loss=0.4200
+2026-05-16 16:37:44,865 [INFO]   Epoch   2/80 | train_loss=0.6841 | val_loss=0.4498
+2026-05-16 16:37:44,872 [INFO]   Epoch   3/80 | train_loss=0.6373 | val_loss=0.4837
+2026-05-16 16:37:44,877 [INFO]   Epoch   4/80 | train_loss=0.5778 | val_loss=0.5253
+2026-05-16 16:37:44,883 [INFO]   Epoch   5/80 | train_loss=0.5169 | val_loss=0.5733
+2026-05-16 16:37:44,888 [INFO]   Epoch   6/80 | train_loss=0.4384 | val_loss=0.6317
+2026-05-16 16:37:44,893 [INFO]   Epoch   7/80 | train_loss=0.3859 | val_loss=0.6981
+2026-05-16 16:37:44,899 [INFO]   Epoch   8/80 | train_loss=0.2765 | val_loss=0.7794
+2026-05-16 16:37:44,904 [INFO]   Epoch   9/80 | train_loss=0.1411 | val_loss=0.8651
+2026-05-16 16:37:44,910 [INFO]   Epoch  10/80 | train_loss=0.0876 | val_loss=0.9637
+2026-05-16 16:37:44,917 [INFO]   Epoch  11/80 | train_loss=0.1052 | val_loss=1.0216
+2026-05-16 16:37:44,917 [INFO]   Early stopping at epoch 11
+2026-05-16 16:37:44,919 [INFO] HantaCast: computing MixLinear signal on full dataset ...
+2026-05-16 16:37:44,933 [INFO] HantaCast: MixLinear pre-training complete (10 days)
+2026-05-16 16:37:44,976 [WARNING]   KNN failed at origin 7: Expected n_neighbors <= n_samples_fit, but n_neighbors = 3, n_samples_fit = 2, n_samples = 1
+2026-05-16 16:37:45,569 [INFO] HantaCast: fitting SEIRD with pre-computed MixLinear signal ...
+2026-05-16 16:37:45,843 [INFO] HantaCast: forecasting 1 days ahead ...
+2026-05-16 16:37:50,597 [INFO] HantaCast: fitting SEIRD with pre-computed MixLinear signal ...
+2026-05-16 16:37:51,035 [INFO] HantaCast: forecasting 1 days ahead ...
+2026-05-16 16:37:51,854 [INFO] HantaCast: fitting SEIRD with pre-computed MixLinear signal ...
+2026-05-16 16:37:52,187 [INFO] HantaCast: forecasting 1 days ahead ...

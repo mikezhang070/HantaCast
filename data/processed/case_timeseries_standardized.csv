@@ -1,0 +1,11 @@
+date,day_index,new_cases,cumulative_cases,active_cases,intervention_index,mobility_index,flight_volume,behavior_response_index,location,source_note,is_imputed,deaths,intervention_imputed,mobility_imputed,behavior_imputed,population_total
+2026-05-04,0,7.0,7.0,4.0,0.35,0.0,0.0,0.252,MV Hondius aggregate,WHO DON599 | 1 critically ill + 3 mild among total; onset range 2026-04-06 to 2026-04-28,True,3.0,False,True,False,147.0
+2026-05-05,1,0.0,7.0,4.0,0.35,0.0,0.0,0.1575,MV Hondius aggregate,forward-filled between report dates,True,3.0,False,True,False,147.0
+2026-05-06,2,0.0,7.0,4.0,0.45,0.028089887640449437,2.5,0.4408679775280899,MV Hondius aggregate,forward-filled between report dates,True,3.0,False,False,False,147.0
+2026-05-07,3,0.0,7.0,4.0,0.45,0.0,0.0,0.2025,MV Hondius aggregate,forward-filled between report dates,True,3.0,False,True,False,147.0
+2026-05-08,4,1.0,8.0,5.0,0.45,0.0,0.0,0.40375,MV Hondius aggregate,WHO DON600 | All six confirmed identified as Andes virus; 147 onboard + 34 previously disembarked,True,3.0,False,True,False,147.0
+2026-05-09,5,0.0,8.0,5.0,0.45,0.0,0.0,0.2025,MV Hondius aggregate,forward-filled between report dates,True,3.0,False,True,False,147.0
+2026-05-10,6,0.0,8.0,5.0,0.8,1.0,89.0,0.73675,MV Hondius aggregate,forward-filled between report dates,True,3.0,False,False,False,147.0
+2026-05-11,7,1.0,9.0,6.0,0.8,0.24719101123595505,22.0,0.579188202247191,MV Hondius aggregate,WHO via Reuters | WHO spokesperson reported seven confirmed and nine total after France update,False,3.0,False,False,False,147.0
+2026-05-12,8,2.0,11.0,8.0,0.8,0.42696629213483145,38.0,0.6483932584269663,MV Hondius aggregate,WHO DG remarks | All eleven cases among passengers or crew; active monitoring through 2026-06-21,False,3.0,False,False,False,147.0
+2026-05-13,9,0.0,11.0,8.0,0.8,0.0,0.0,0.465,MV Hondius aggregate,"ECDC daily update | ECDC classification: 8 confirmed, 2 probable, 1 inconclusive; no new cases/deaths since previous update",True,3.0,False,True,False,147.0

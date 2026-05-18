@@ -1,0 +1,21 @@
+﻿date,location_or_node,event_type,event_summary,population_total,passengers,crew,source_id,model_tag
+2026-04-01,"Ushuaia, Argentina",Departure,MV Hondius departed; itinerary across South Atlantic; 147 individuals reported by WHO (88 passengers + 59 crew).,147,88,59,S01/S08,route/start
+2026-04-06,On board,First symptom onset,"Case 1 developed fever, headache and mild diarrhoea while on board.",147,,,S01,case_onset
+2026-04-11,On board,First death,Case 1 developed respiratory distress and died on board.,146?,,,S01,death
+2026-04-13/15,Tristan da Cunha,Remote stop,Itinerary included Tristan da Cunha; later a British national case was supported/monitored there according to UKHSA updates.,,,,S01/S10,route
+2026-04-24,Saint Helena,Disembarkation / body removed,Body of case 1 removed; Case 2 went ashore with GI symptoms; WHO reports contact tracing of disembarked passengers later ongoing.,,,,S01/S02,disembarkation
+2026-04-25,Flight: Saint Helena -> South Africa,In-flight deterioration,Case 2 deteriorated during flight to Johannesburg; contact tracing for passengers on the flight was initiated.,,,,S01/S02,flight_exposure
+2026-04-26,"Johannesburg, South Africa",Death,Case 2 died on arrival at emergency department; later PCR-confirmed hantavirus infection.,,,,S01,death
+2026-04-27,Ascension -> South Africa,Medical evacuation,Case 3 medically evacuated to South Africa and admitted to ICU.,,,,S01,medical_evacuation
+2026-04-28,On board,Symptom onset,Case 4 symptom onset: fever and malaise; later died on 2 May.,,,,S01,case_onset
+2026-05-02,South Africa / WHO IHR,WHO notification + lab confirmation,WHO notified of cluster; South Africa lab confirmed hantavirus in critically ill patient; Case 4 died same day.,147,,,S01/S06,reporting/confirmation
+2026-05-03,On board / WHO,Additional death reported,Additional death reported after WHO notification; investigations and coordination escalated.,,,,S01,death/reporting
+2026-05-04,Off Cabo Verde,Initial DON snapshot,"WHO: 7 cases total, 2 lab-confirmed and 5 suspected, including 3 deaths; vessel moored off Cabo Verde.",147,88,59,S01,case_count
+2026-05-06,Cabo Verde -> Europe,Medical evacuation flights,"Two medical evacuation flights from Cabo Verde carried two symptomatic confirmed patients and one previously suspected case, landing in the Netherlands on 6/7 May.",,,,S02/S12,medical_evacuation
+2026-05-06,Cabo Verde / ship,Ship leaves Cabo Verde,"Ship left Cabo Verde heading to Canary Islands, Spain, where disembarkation was planned.",,,,S02,route
+2026-05-08,WHO DON update,Updated case snapshot,"WHO: 8 total cases, 6 confirmed, 2 probable, 3 deaths; 147 onboard and 34 previously disembarked.",147 onboard + 34 previously disembarked,,,S02,case_count
+2026-05-10,"Granadilla, Tenerife, Spain",Arrival and disembarkation begins,ECDC: MV Hondius arrived at Granadilla; passengers/crew disembarkation and repatriation started; all treated as high risk at disembarkation.,,,,S03/S04/S07,arrival/disembarkation
+2026-05-11,Tenerife -> countries,Disembarkation/repatriation completed,ECDC: disembarkation of passengers and part of crew completed; all passengers and crew repatriated; ship departed Tenerife toward Netherlands.,,,,S03,repatriation_complete
+2026-05-12,WHO / Madrid,Post-operation status,"WHO DG: all passengers disembarked and left Tenerife; 11 cases among ship passengers/crew, 9 confirmed, 2 probable; monitoring recommended through 2026-06-21.",,,,S06,case_count/monitoring
+2026-05-13,ECDC daily update,Latest structured case count,"ECDC: 11 total cases, 8 confirmed, 2 probable, 1 inconclusive, 3 deaths; no new cases/deaths since previous update.",,,,S03,case_count
+2026-05-17/18,Netherlands,Expected ship arrival,ECDC: ship scheduled to arrive in Netherlands on 17 or 18 May; Dutch updates note crew quarantine and ship disinfection.,,,,S03/S12,ship_return

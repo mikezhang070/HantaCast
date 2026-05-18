@@ -1,0 +1,13 @@
+﻿variable,value,unit,recommended_use,source_id,notes
+N_ship_initial,147,persons,Initial ship population for ship-layer SEIQRD,S01/S08,"WHO DON599 gives 88 passengers + 59 crew; CDC HAN gives 86 passengers + 61 crew, both total 147. Use total 147; keep passenger/crew split as source-dependent."
+N_previously_disembarked_by_2026_05_08,34,persons,External contact-tracing pool / already left before main Tenerife repatriation,S02,WHO DON600 reports 34 passengers and crew had previously disembarked.
+cases_2026_05_04_total,7,cases,Calibration point for early outbreak curve,S01,2 lab-confirmed + 5 suspected; 3 deaths.
+cases_2026_05_08_total,8,cases,Calibration point,S02,6 confirmed + 2 probable; 3 deaths.
+cases_2026_05_12_total,11,cases,Latest WHO speech calibration point,S06,9 confirmed + 2 probable; 3 deaths.
+cases_2026_05_13_total_ECDC,11,cases,Latest ECDC classification point,S03,8 confirmed + 2 probable + 1 inconclusive; 3 deaths.
+deaths_latest,3,deaths,Mortality endpoint; do not infer CFR from small sample alone,S03/S06,Small-n cluster; case ascertainment changing.
+monitoring_window_WHO,42,days,Destination-country monitoring period after last exposure,S06,WHO DG: 42 days from 2026-05-10 to 2026-06-21.
+UK_isolation_window,45,days,UK-specific isolation duration variable,S10,UKHSA uses up to 45 days.
+Canada_min_isolation,21,days,Canada lower-bound monitoring scenario,S11,Minimum 21 days dating back to 2026-05-06; may extend to 42 days.
+Australia_min_quarantine,21,days,Australia lower-bound quarantine scenario,S14,"At least three weeks at Bullsbrook, possible extension for 42-day WHO alignment."
+flight_repatriation_policy,non-commercial/specially arranged,category,Flight layer intervention flag,S04/S05,Do not treat as ordinary commercial travel in baseline model.
