@@ -1,0 +1,8 @@
+﻿Metric,Value,Source/Notes
+Initial persons on MV Hondius,147,WHO/CDC total; passenger/crew split differs by source
+Countries/nationalities represented,23,WHO/ECDC
+Latest total cases used for modelling,11,WHO 12 May / ECDC 13 May
+Latest deaths,3,WHO/ECDC
+WHO recommended monitoring window,42,From 2026-05-10 to 2026-06-21
+Main Tenerife repatriation policy,non-commercial/specially arranged flights,ECDC/Reuters
+Largest cited destination groups in this workbook,Netherlands flights: 26 + 22 passengers + 22 crew/medical; UK: 22; US: 18; Spain: 14; France: 5; Canada: 4; Australia/NZ: 6,Rows in Repatriation_Flights
