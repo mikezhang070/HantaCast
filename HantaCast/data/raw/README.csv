@@ -1,8 +1,0 @@
-﻿MV Hondius Andes Hantavirus Research Data Pack,
-Scope,"Aggregated, public-source cruise + repatriation-flight dataset for academic modelling. No personal identifiers, seat numbers, flight numbers or private itineraries are included."
-As-of date,Compiled 2026-05-14. Situation is evolving; always re-check WHO/ECDC/official country updates before submission.
-Recommended model,"Ship–Flight SEIQRD / metapopulation-SEIR. Treat flights as directed aggregate mobility edges, not individual tracing."
-Important limitation,Counts are source-dependent and classification can differ: WHO 12 May says 9 confirmed + 2 probable; ECDC 13 May says 8 confirmed + 2 probable + 1 inconclusive.
-Privacy/safety boundary,"Use only aggregate country/facility-level data for public-health early warning, intervention assessment and risk evaluation."
-Reference article,The uploaded Yang et al. paper used migration In/Out terms in modified SEIR; this workbook adapts that logic to ship-to-flight outflows.
-Workbook sheets,"Sources, Cruise_Timeline, Case_Timeseries, Repatriation_Flights, Model_Ready"
