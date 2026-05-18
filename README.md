@@ -6,10 +6,6 @@ HantaCast: A Deep Mechanistically Constrained Hybrid Model for Hantavirus Case T
 
 HantaCast integrates a **MixLinear-based deep temporal signal learner** with **SEIRD-constrained epidemiological dynamics** into a unified hybrid model.
 
-- **MixLinear temporal signal learner**: A gated mixture-of-experts architecture combining temporal, trend, frequency, and covariate expert branches. It learns time-varying temporal signals from retrospective case-count windows and covariate time series.
-- **SEIRD dynamics**: A discrete-time SEIRD compartmental model with an intervention-modulated transmission rate (beta_t). The MixLinear temporal signal enters the beta_t pathway as an additional time-varying modifier.
-- **Coupling**: The MixLinear signal modulates beta_t, which in turn drives the SEIRD compartmental evolution. Forecasts are mechanistically constrained trajectories, not unconstrained regression curves.
-
 ## Directory Structure
 
 ```
